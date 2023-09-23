@@ -9,5 +9,35 @@ Cloning repository  ```git clone https://github.com/qalansiyah/fastapi-nats.git`
 Сhange to directory ```cd  /your path/fastapi-nats```
 Use docker compose to create an image```docker compose build``` and run it  ```docker compose up```
 #### Or download  docker image  from DockerHub
-```docker pull kihaadhuffaru/fastapi-nats``` and run it ```docker compose up```
+Create docker-compose.yml in your working directory and put this code to in it
+```services:
+  main:
+    image: kihaadhuffaru/fastapi-nats
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8888:8888"
+    networks:
+      - nats
+    #volumes
+      #- ./data:/app/data
+    depends_on:
+      - nats
+    container_name: container-main
+
+  nats:
+    image: kihaadhuffaru/nats
+    ports:
+      - "4222:4222"
+      - "8222:8222"
+    container_name: container-nats
+    networks:
+      - nats
+    #command: "-DV"
+networks:
+  nats:
+    driver: bridge
+```
+Pull docker```docker pull kihaadhuffaru/fastapi-nats``` and run it ```docker compose up```
 
