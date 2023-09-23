@@ -6,15 +6,12 @@ If you use Linux make sure the docker compose plugin is installed on your system
 
 #### You can easily build the image using the following commands
 Cloning repository  
-```git clone https://github.com/qalansiyah/fastapi-nats.git
-```
-Сhange to directory ```cd  /your path/fastapi-nats```
-Use docker compose to create an image
-```docker compose build
-```
+```git clone https://github.com/qalansiyah/fastapi-nats.git```
+
+Сhange to directory ```cd  /your path/fastapi-nats``` Use docker compose to create an image
+```docker compose build```
 and run it  
-```docker compose up
-```
+```docker compose up```
 #### Or download  docker image  from DockerHub
 Create docker-compose.yml in your working directory and put this code to in it
 
