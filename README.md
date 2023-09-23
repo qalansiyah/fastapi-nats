@@ -47,6 +47,9 @@ networks:
 Pull docker
 ``` docker pull kihaadhuffaru/fastapi-nats ```
 and run it
-``` docker compose up ``` 
+``` 
+docker compose up
+
+ ``` 
 command
 
