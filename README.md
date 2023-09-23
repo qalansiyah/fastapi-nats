@@ -10,6 +10,7 @@ Cloning repository  ```git clone https://github.com/qalansiyah/fastapi-nats.git`
 Use docker compose to create an image```docker compose build``` and run it  ```docker compose up```
 #### Or download  docker image  from DockerHub
 Create docker-compose.yml in your working directory and put this code to in it
+
 ```services:
   main:
     image: kihaadhuffaru/fastapi-nats
