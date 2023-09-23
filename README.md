@@ -64,5 +64,5 @@ and run it
 docker compose up
 
  ``` 
-command
+
 
