@@ -45,7 +45,9 @@ networks:
     driver: bridge
 ```
 Pull docker
-``` docker pull kihaadhuffaru/fastapi-nats ```
+
+``` docker pull kihaadhuffaru/fastapi-nats 
+```
 and run it
 ``` 
 docker compose up
