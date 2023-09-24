@@ -7,7 +7,11 @@ This is a python application using FastAPI and NATS. FastAPI is a modern asynchr
 
 ## Installing and running
 #### You can easily build the image manually
-If you use Linux make sure the docker compose plugin is installed on your system using command ``` docker compose version ``` if not then install it [https://docs.docker.com/compose/install/linux/](https://docs.docker.com/compose/install/linux/)
+If you use Linux make sure the docker compose plugin is installed on your system using command 
+``` 
+docker compose version
+``` 
+if not then install it [https://docs.docker.com/compose/install/linux/](https://docs.docker.com/compose/install/linux/)
 
 Use the following commands
 Cloning repository  
