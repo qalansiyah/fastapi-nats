@@ -6,22 +6,20 @@ FastAPI with NATS is a Docker image that combines FastAPI framework with NATS me
 This is a python application using FastAPI and NATS. FastAPI is a modern asynchronous web framework for building APIs with Python, while NATS is a lightweight and high-performance messaging system written in Go.
 
 ## Installing and running
+#### You can easily build the image manually
 If you use Linux make sure the docker compose plugin is installed on your system using command```docker compose version``` if not then install it [https://docs.docker.com/compose/install/linux/](https://docs.docker.com/compose/install/linux/)
 
-#### You can easily build the image manually using the following commands
+Use the following commands
 Cloning repository  
-
 ``` 
 git clone https://github.com/qalansiyah/fastapi-nats.git
 ```
-
-Сhange to directory ```cd  /your path/fastapi-nats``` Use docker compose to create an image
-
+Сhange to directory ```cd  /your path/fastapi-nats``` 
+Use docker compose to create an image
 ```
 docker compose build
 ```
 and run it  
-
 ``` 
 docker compose up
 ```
