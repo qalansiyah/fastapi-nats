@@ -1,9 +1,9 @@
 # fastapi-nats
-This is a Python application using FastAPI with NATS, and an example of how to run it using Docker compose
+This is a microservice  using FastAPI with NATS, and an example of how to run it using Docker compose
 
 ## Description
 FastAPI with NATS is a Docker image that combines FastAPI framework with NATS messaging system.
-This is a python application using FastAPI and NATS. FastAPI is a modern asynchronous web framework for building APIs with Python, while NATS is a lightweight and high-performance messaging system written in Go.
+This is a microservice using FastAPI and NATS. FastAPI is a modern asynchronous web framework for building APIs with Python, while NATS is a lightweight and high-performance messaging system written in Go.
 
 ## Installing and running
 #### You can easily build the image manually
